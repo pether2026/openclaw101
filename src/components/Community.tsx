@@ -245,9 +245,9 @@ export default function Community({ locale, dict }: CommunityProps) {
               {/* QR Code */}
               <div className="text-center order-1 sm:order-2 shrink-0">
                 <img
-                  src="/images/video-course-qr-new.jpg"
+                  src="/images/video-course-qr-code.jpg"
                   alt="视频课二维码"
-                  className="w-48 sm:w-56 md:w-64 rounded-xl border-2 border-white/20 mx-auto"
+                  className="w-36 sm:w-44 md:w-52 rounded-xl mx-auto bg-white"
                 />
                 <p className="text-white/60 text-xs mt-2">扫码查看课程详情</p>
               </div>
