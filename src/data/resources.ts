@@ -4250,6 +4250,47 @@ export const resources: Resource[] = [
     category: "deep-dive",
     tags: ["GitHub Stars", "安全争议", "增长", "Medium", "2026-03"],
   },
+
+  {
+    title: 'sanwan.ai — AI 龙虾三万自主运营网站实录',
+    desc: '完全由 OpenClaw AI Agent 自主建站、写作、推广的网站，展示真实的 Agent 长期运营案例，每日更新日记，并附技能清单。',
+    url: 'https://sanwan.ai',
+    source: 'sanwan.ai',
+    lang: 'zh',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['实战案例', '自动化运营', '心跳机制', 'SOUL.md', '多 Agent'],
+  },
+
+  {
+    title: 'SOUL.md 设计指南：如何给 AI 一个真正有个性的灵魂',
+    desc: '详解 OpenClaw 中 SOUL.md 的配置方法，包含 3 种真实模板、常见错误与检验标准，适合想把 Agent 角色写清楚的用户。',
+    url: 'https://juejin.cn/post/7616308247709974547',
+    source: '掘金',
+    lang: 'zh',
+    category: 'skill-dev',
+    tags: ['SOUL.md', 'Agent人格', '配置教程'],
+  },
+
+  {
+    title: 'OpenClaw 心跳机制实战：让 AI Agent 24 小时不停自主运行',
+    desc: '从 HEARTBEAT.md 配置到三问反思机制，手把手讲解如何让 Agent 全天候自主执行任务，并附可运行示例。',
+    url: 'https://juejin.cn/post/7616209617266835498',
+    source: '掘金',
+    lang: 'zh',
+    category: 'skill-dev',
+    tags: ['心跳机制', 'HEARTBEAT.md', '自动化', '定时任务'],
+  },
+
+  {
+    title: 'OpenClaw 香港入門指南 — AI 私人助理粵港澳大灣區版',
+    desc: '面向香港及大灣區商戶的繁體中文 OpenClaw 入門資源，覆蓋粵語、本地業務場景與技能包思路。',
+    url: 'https://openclawhk.io',
+    source: 'openclawhk.io',
+    lang: 'zh',
+    category: 'getting-started',
+    tags: ['香港', '繁體中文', '粵語', '技能包', '大灣區'],
+  },
 ];
 
 export function getResourcesByCategory(cat: ResourceCategory): Resource[] {
