@@ -80,7 +80,7 @@ If you're on **Mac**, you might need to install Homebrew first (if you don't hav
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-If you're on **Windows**, I suggest installing WSL2 (Windows Subsystem for Linux) first, then working within WSL. Installation is simple: open PowerShell as Administrator and run `wsl --install`. See the [official Microsoft WSL installation guide](https://docs.microsoft.com/en-us/windows/wsl/install) for details.
+If you're on **Windows**, **you do not have to install WSL2 first**. OpenClaw can run directly on native Windows. If your goal is to get started quickly—or you want OpenClaw to work directly with Windows files, browsers, WeChat, or other desktop apps—**native Windows is usually the better default**. Only choose **WSL2 (Windows Subsystem for Linux)** if you prefer a Linux CLI workflow or want an environment that feels closer to a server. If you do want the WSL2 route, open PowerShell as Administrator and run `wsl --install`. See the [official Microsoft WSL installation guide](https://docs.microsoft.com/en-us/windows/wsl/install) for details.
 
 Also, prepare these two things in advance—the wizard will need them:
 

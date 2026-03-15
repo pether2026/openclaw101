@@ -16,10 +16,10 @@ export default function ConsultButton({ locale }: ConsultButtonProps) {
       <button
         onClick={() => setIsOpen(true)}
         className="fixed bottom-6 right-6 z-50 flex items-center gap-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 group"
-        aria-label={isZh ? '付费咨询' : 'Consultation'}
+        aria-label={isZh ? '商务合作' : 'Business Collaboration'}
       >
         <span className="text-xl">💬</span>
-        <span className="hidden sm:inline">{isZh ? '付费咨询' : 'Consult'}</span>
+        <span className="hidden sm:inline">{isZh ? '商务合作' : 'Business'}</span>
         <span className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse" />
       </button>
 
@@ -49,47 +49,22 @@ export default function ConsultButton({ locale }: ConsultButtonProps) {
                 <span className="text-3xl">🦞</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900">
-                {isZh ? 'OpenClaw 付费咨询' : 'OpenClaw Consultation'}
+                {isZh ? 'OpenClaw 商务合作' : 'OpenClaw Business Collaboration'}
               </h3>
               <p className="text-gray-500 text-sm mt-1">
                 {isZh ? '腾讯T11 · 字节3-1 · AI编程专家' : 'Ex-Tencent T11 · Ex-ByteDance · AI Expert'}
               </p>
             </div>
 
-            {/* Pricing */}
-            <div className="space-y-3 mb-6">
-              <div className="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
-                <div>
-                  <p className="font-semibold text-gray-900">{isZh ? '基础咨询' : 'Basic Consult'}</p>
-                  <p className="text-xs text-gray-500">{isZh ? '30分钟 · 问题解答' : '30min · Q&A'}</p>
-                </div>
-                <span className="text-lg font-bold text-blue-600">¥299</span>
-              </div>
-              <div className="flex items-center justify-between p-3 bg-blue-50 rounded-xl border-2 border-blue-200">
-                <div>
-                  <p className="font-semibold text-gray-900">{isZh ? '部署协助' : 'Setup Help'}</p>
-                  <p className="text-xs text-gray-500">{isZh ? '1小时 · 远程指导确保跑通' : '1hr · Remote setup assistance'}</p>
-                </div>
-                <span className="text-lg font-bold text-blue-600">¥599</span>
-              </div>
-              <div className="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
-                <div>
-                  <p className="font-semibold text-gray-900">{isZh ? '企业定制' : 'Enterprise'}</p>
-                  <p className="text-xs text-gray-500">{isZh ? '私有化部署 · Skills开发' : 'Private deploy · Custom skills'}</p>
-                </div>
-                <span className="text-lg font-bold text-gray-600">{isZh ? '私聊' : 'Contact'}</span>
-              </div>
-            </div>
-
             {/* QR Code */}
-            <div className="text-center">
+            <div className="text-center mb-2">
               <img
                 src="/wechat-personal-qr.jpg"
                 alt={isZh ? '微信二维码' : 'WeChat QR'}
-                className="w-32 h-32 mx-auto rounded-xl border border-gray-200 mb-3"
+                className="block w-full max-w-[220px] h-auto mx-auto rounded-xl border border-gray-200 mb-3 bg-white p-1 object-contain"
               />
-              <p className="text-sm text-gray-600">
-                {isZh ? '扫码添加微信，备注「OpenClaw咨询」' : 'Scan to add WeChat, note "OpenClaw"'}
+              <p className="text-sm text-gray-600 leading-6">
+                {isZh ? '扫码添加微信，备注「OpenClaw合作」即可' : 'Scan to add WeChat and note "OpenClaw Collaboration"'}
               </p>
             </div>
 

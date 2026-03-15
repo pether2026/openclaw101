@@ -95,7 +95,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'GitHub — openclaw/openclaw',
-    desc: '源代码、Issue 跟踪和社区贡献指南 (279k+ ⭐)',
+    desc: '源代码、Issue 跟踪和社区贡献指南 (312k+ ⭐)',
     url: 'https://github.com/openclaw/openclaw',
     source: 'GitHub',
     lang: 'en',
@@ -3967,6 +3967,288 @@ export const resources: Resource[] = [
     lang: 'en',
     category: 'getting-started',
     tags: ['ClawHub', 'skills', 'WhatsApp', 'Mac'],
+  },
+
+  // ============ New — Week of 2026-03-10 ============
+
+  {
+    title: "GitHub Releases — OpenClaw v2026.3.8",
+    desc: "最新正式版发布：新增 backup create/verify、Brave web search llm-context、Talk silenceTimeoutMs，并修复 Telegram / Matrix / Feishu / Android 等多项问题。",
+    url: "https://github.com/openclaw/openclaw/releases/tag/v2026.3.8",
+    source: "GitHub Releases",
+    lang: "en",
+    category: "official",
+    featured: true,
+    tags: ["v2026.3.8", "版本更新", "backup", "Brave web search"],
+  },
+
+  {
+    title: "OpenClaw Newsletter — 2026-03-07",
+    desc: "官方周刊：openclaw-cli 2026.3.2 上架 Homebrew，30 天 4,751 次安装；同时汇总输入校验、Telegram 重复消息等社区进展。",
+    url: "https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-03-07/",
+    source: "OpenClaw Newsletter",
+    lang: "en",
+    category: "official",
+    featured: true,
+    tags: ["官方周刊", "2026-03-07", "Homebrew", "社区动态"],
+  },
+
+  {
+    title: "Malwarebytes — Beware of fake OpenClaw installers, even if Bing points you to GitHub",
+    desc: "安全预警：假冒 GitHub 安装仓库正在传播恶意 OpenClaw 安装器，提醒用户只使用官方源与官方安装路径。",
+    url: "https://www.malwarebytes.com/blog/news/2026/03/beware-of-fake-openclaw-installers-even-if-bing-points-you-to-github",
+    source: "Malwarebytes",
+    lang: "en",
+    category: "deep-dive",
+    featured: true,
+    tags: ["安全", "假安装器", "GitHub 仿冒", "必读"],
+  },
+
+  {
+    title: "AdvenBoost — OpenClaw Onboarding Quickstart vs. Manual: Easy Guide",
+    desc: "对比 Quickstart 与手动部署两条路径：5 分钟向导式安装 vs 20–30 分钟服务器手动配置，适合新手与 VPS 用户。",
+    url: "https://advenboost.com/openclaw-onboarding-quickstart",
+    source: "AdvenBoost",
+    lang: "en",
+    category: "getting-started",
+    featured: true,
+    tags: ["Quickstart", "手动部署", "新手友好", "VPS"],
+  },
+
+  {
+    title: "GitHub — 哈喽！龙虾（Hello Claw）",
+    desc: "DataWhale 出品的体系化中文开源教程：从领养第一只 Claw 到理解架构、Skills、平台接入与部署。",
+    url: "https://github.com/datawhalechina/hello-claw",
+    source: "GitHub",
+    lang: "zh",
+    category: "getting-started",
+    featured: true,
+    tags: ["中文教程", "DataWhale", "体系化", "开源教程"],
+  },
+
+  {
+    title: "博客园 — OpenClaw 中级到高级教程",
+    desc: "中文进阶实战：覆盖记忆优化、网络搜索、云部署安全、微信/飞书接入、多 Agent 协作与心跳机制。",
+    url: "https://www.cnblogs.com/Johny-zhao/p/19685861",
+    source: "博客园",
+    lang: "zh",
+    category: "deep-dive",
+    featured: true,
+    tags: ["中文进阶", "多 Agent", "心跳机制", "飞书"],
+  },
+
+  {
+    title: "B站 — OpenClaw 从中级到高级完整教程",
+    desc: "近期高热度中文视频教程：系统讲解记忆系统、Skills、多 Agent、服务器部署与微信/飞书接入。",
+    url: "https://www.bilibili.com/video/BV1ZiNwzPEhP",
+    source: "Bilibili",
+    lang: "zh",
+    category: "video",
+    featured: true,
+    tags: ["B站", "中文教程", "多 Agent", "Skills"],
+  },
+
+  {
+    title: "YouTube — OpenClaw Tutorial for Beginners (How to Set Up OpenClaw with ClawdBot)",
+    desc: "最新英文入门视频：从安装到首次运行的完整上手流程，适合第一次部署 OpenClaw 的新用户。",
+    url: "https://www.youtube.com/watch?v=GG_2C6Mr1Mw",
+    source: "YouTube",
+    lang: "en",
+    category: "video",
+    tags: ["YouTube", "入门", "安装", "最新"],
+  },
+
+
+  // ============ New — Week of 2026-03-12 ============
+
+  {
+    title: 'OpenClaw Newsletter — 2026-03-09',
+    desc: '官方周刊：OpenClaw 超越 React 成为 GitHub Stars 第一的软件项目，并汇总当日社区动态与版本进展。',
+    url: 'https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-03-09/',
+    source: 'OpenClaw Newsletter',
+    lang: 'en',
+    category: 'official',
+    featured: true,
+    tags: ['官方周刊', '2026-03-09', '250K Stars', '社区动态'],
+  },
+
+  {
+    title: 'OpenClaw for Research and Content: 12 Workflows Shared in Early March 2026',
+    desc: '梳理 12 个适合研究与内容团队复用的 OpenClaw 工作流，包括 AI 新闻室、日报、社区信号扫描与 repo-to-book 等场景。',
+    url: 'https://clawsimple.com/en/blog/openclaw-research-content-workflows-2026',
+    source: 'ClawSimple',
+    lang: 'en',
+    category: 'use-cases',
+    tags: ['研究工作流', '内容生产', '日报', 'repo-to-book'],
+  },
+
+  {
+    title: 'OpenClaw 2026.3.8 Adds Backups, Better macOS Setup, and Smarter Web Search Tools',
+    desc: '版本解读：聚焦 v2026.3.8 的 backup create/verify、改进的 macOS 安装体验，以及更强的 Web Search 工具链。',
+    url: 'https://thedroidguy.com/openclaw-2026-3-8-adds-backups-better-macos-setup-and-smarter-web-search-tools-1271324',
+    source: 'The Droid Guy',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['v2026.3.8', 'backup', 'macOS', 'web search'],
+  },
+
+  {
+    title: 'Meet OpenClaw: The AI assistant that broke every record – and started a security panic',
+    desc: 'CGTN 报道：回顾 OpenClaw 冲上 250,000 GitHub Stars 的爆发式增长，同时总结研究人员对公开暴露实例与安全风险的警告。',
+    url: 'https://news.cgtn.com/news/2026-03-11/OpenClaw-AI-tool-that-broke-every-record-and-caused-a-security-panic-1LpwvrIqQk8/p.html',
+    source: 'CGTN',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['CGTN', '250K Stars', '安全风险', '主流媒体'],
+  },
+
+  // ============ New — Week of 2026-03-13 ============
+
+  {
+    title: 'Linux 部署安装 OpenClaw 教程：从环境搭建到生产运行的完整指南',
+    desc: '近期中文部署指南：从 Linux 环境准备、Node.js 安装到 Gateway 运行与飞书 / 钉钉接入，适合第一次在服务器上部署 OpenClaw 的用户。',
+    url: 'https://www.fiveyoboy.com/articles/linux-deploy-openclaw-tutorial/',
+    source: 'FiveYoBoy',
+    lang: 'zh',
+    category: 'getting-started',
+    tags: ['Linux', '部署', '飞书', '钉钉', '2026-03'],
+  },
+
+  {
+    title: '部署 OpenClaw：开源 AI 个人助手从安装到 QQ 机器人接入',
+    desc: '中文图文教程：从 npm 安装、onboard 初始化到 QQ 机器人接入，适合希望把 OpenClaw 接到国内聊天平台的用户。',
+    url: 'https://catcat.blog/2026/03/deploy-openclaw-ai-assistant',
+    source: '猫猫博客',
+    lang: 'zh',
+    category: 'channel-integration',
+    tags: ['QQ', '国内平台', '安装', 'onboard', '2026-03'],
+  },
+
+  {
+    title: 'OpenClaw 教學：AI Agent 部署平台，1 分鐘上手完整指南（2026 更新）',
+    desc: '繁体中文综述：对比官方桌面版、托管服务、腾讯云 / 阿里云 / GCP 与本地命令行等多种部署路径，适合快速选型。',
+    url: 'https://grenade.tw/blog/openclaw-ai/',
+    source: 'Grenade.tw',
+    lang: 'zh',
+    category: 'cloud-deploy',
+    tags: ['繁中', '部署选型', '腾讯云', '阿里云', 'GCP'],
+  },
+
+  {
+    title: 'OpenClawd Releases Cloud-Hosted OpenClaw Platform Update as AI Agent Adoption Hits Record Levels Across Asia and North America',
+    desc: 'OpenClawd 发布云托管平台更新，补充了近期云端托管 OpenClaw 的商业化路径与产品动态，可作为自建之外的部署参考。',
+    url: 'https://finance.yahoo.com/news/openclawd-releases-cloud-hosted-openclaw-171000616.html',
+    source: 'Yahoo Finance',
+    lang: 'en',
+    category: 'cloud-deploy',
+    tags: ['托管平台', '云部署', 'OpenClawd', '2026-03'],
+  },
+
+  // ============ New — Week of 2026-03-14 ============
+
+  {
+    title: "MYGOM — Securely Setup OpenClaw Clawdbot in Minutes",
+    desc: "安全优先的快速部署指南：覆盖主机选择、Docker 安装、API Key 保护与远程部署前的准备清单，适合想先把风险控住的新手。",
+    url: "https://mygom.tech/articles/securely-setup-openclaw-clawdbot-in-minutes",
+    source: "MYGOM",
+    lang: "en",
+    category: "getting-started",
+    tags: ["安全部署", "Docker", "新手", "2026-03"],
+  },
+
+  {
+    title: "Getting Started with OpenClaw: Setup, Core Features, and Your First Practical Workflow",
+    desc: "从第一次安装到第一个实用工作流的长文入门：解释 Gateway、workspace、channels 与安全策略，适合系统理解 OpenClaw 的新手。",
+    url: "https://margabagus.com/openclaw-getting-started/",
+    source: "Margabagus",
+    lang: "en",
+    category: "getting-started",
+    tags: ["入门", "第一条工作流", "安全", "2026-03"],
+  },
+
+  {
+    title: "OpenClaw for Product Managers: The Complete Guide to Setup, Security, Costs & Use Cases [2026]",
+    desc: "面向产品经理的全景指南：从架构、安装与 Telegram 接入，到成本、安全和 10 个真实用例，适合业务视角快速理解 OpenClaw。",
+    url: "https://hellopm.co/openclaw-for-product-managers/",
+    source: "HelloPM",
+    lang: "en",
+    category: "use-cases",
+    tags: ["产品经理", "成本", "安全", "用例", "2026-03"],
+  },
+
+  {
+    title: "YouTube — The Ultimate Beginner’s Guide to OpenClaw",
+    desc: "近期高热度英文视频教程：从首次部署到模型路由、安全、Telegram、Skills、Memory、cron、语音模式与子 Agent 的全流程讲解。",
+    url: "https://www.youtube.com/watch?v=st534T7-mdE",
+    source: "YouTube",
+    lang: "en",
+    category: "video",
+    featured: true,
+    tags: ["YouTube", "入门", "Skills", "Memory", "2026-03"],
+  },
+
+  {
+    title: "YouTube — OpenClaw Setup on Windows 11 | Full Installation Guide (2026)",
+    desc: "Windows 11 专向安装视频：完整演示 OpenClaw 的安装流程，适合希望在本机而非 VPS 上跑通第一套环境的用户。",
+    url: "https://www.youtube.com/watch?v=HlFN4KkH_Hc",
+    source: "YouTube",
+    lang: "en",
+    category: "video",
+    tags: ["YouTube", "Windows 11", "安装", "本地部署", "2026-03"],
+  },
+
+
+  // ============ New — Week of 2026-03-15 ============
+
+  {
+    title: "Substack — OpenClaw News for Mar. 11/26",
+    desc: "社区新闻汇总：聚合近一周 OpenClaw 的平台发布、安全预警、硬件集成与市场动态，适合快速补齐最近情报。",
+    url: "https://pau1.substack.com/p/openclaw-news-for-mar-1126",
+    source: "Substack",
+    lang: "en",
+    category: "deep-dive",
+    tags: ["新闻汇总", "社区动态", "安全", "2026-03"],
+  },
+
+  {
+    title: "YouTube — Fix OpenClaw Gateway Dashboard Not Working Unauthorized",
+    desc: "针对 Gateway Dashboard 弹出 Unauthorized 的排障视频：聚焦认证与配置问题，适合装完后控制面板打不开的用户。",
+    url: "https://www.youtube.com/watch?v=i71j86dbc5M",
+    source: "YouTube",
+    lang: "en",
+    category: "video",
+    tags: ["YouTube", "排障", "Gateway", "Dashboard", "2026-03"],
+  },
+
+  {
+    title: "YouTube — Install OpenClaw With Ollama on Raspberry Pi 5",
+    desc: "树莓派 5 + Ollama 零 API 成本部署视频：在本地离线环境运行 OpenClaw，适合低成本硬件玩家和本地模型爱好者。",
+    url: "https://www.youtube.com/watch?v=IwKCk5ycpV0",
+    source: "YouTube",
+    lang: "en",
+    category: "video",
+    tags: ["YouTube", "Raspberry Pi 5", "Ollama", "本地模型", "2026-03"],
+  },
+
+  {
+    title: "YouTube — Top 10 OpenClaw Use Cases You Need To Try",
+    desc: "10 个可直接落地的 OpenClaw 用例视频：覆盖个人效率、自动化与日常工作流，帮助新用户快速找到第一批实用场景。",
+    url: "https://www.youtube.com/watch?v=mTDt_30qAps",
+    source: "YouTube",
+    lang: "en",
+    category: "use-cases",
+    tags: ["用例", "自动化", "工作流", "YouTube", "2026-03"],
+  },
+
+  {
+    title: "Medium — OpenClaw Just Beat React’s 10-Year GitHub Record in 60 Days",
+    desc: "以 60 天打破 React Stars 纪录为切口的评论长文：讨论 OpenClaw 的爆发式增长、真实事故案例与持续升温的安全争议。",
+    url: "https://medium.com/@aftab001x/openclaw-just-beat-reacts-10-year-github-record-in-60-days-now-nobody-knows-what-to-do-with-it-937b8f370507",
+    source: "Medium",
+    lang: "en",
+    category: "deep-dive",
+    tags: ["GitHub Stars", "安全争议", "增长", "Medium", "2026-03"],
   },
 ];
 

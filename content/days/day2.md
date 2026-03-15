@@ -80,7 +80,7 @@ description: "OpenClaw 7天教程 - Day 2: 10 分钟，搭建你的助手"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-如果你用的是 **Windows**，建议先装 WSL2（Windows Subsystem for Linux），然后在 WSL 里操作。安装很简单：以管理员身份打开 PowerShell，运行 `wsl --install` 即可。详细步骤见 [微软官方 WSL 安装指南](https://docs.microsoft.com/zh-cn/windows/wsl/install)。
+如果你用的是 **Windows**，**不一定要先装 WSL2**。OpenClaw 可以直接装在原生 Windows 上；如果你只是想尽快跑起来，或者后面还要直接操作 Windows 里的文件、浏览器、微信等桌面应用，**优先原生 Windows 安装** 会更顺手。只有当你更熟悉 Linux 命令行，或希望获得更接近服务器的环境时，再考虑使用 **WSL2（Windows Subsystem for Linux）**。如果你决定走 WSL2 路线，以管理员身份打开 PowerShell，运行 `wsl --install` 即可。详细步骤见 [微软官方 WSL 安装指南](https://docs.microsoft.com/zh-cn/windows/wsl/install)。
 
 另外，提前准备好这两样东西，等会儿向导会用到：
 

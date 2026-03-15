@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: 'OpenClaw 101 - Master Your AI Assistant in 7 Days | Free Tutorial',
     template: '%s | OpenClaw 101',
   },
-  description: 'Free 7-day tutorial to master OpenClaw (Clawdbot/Moltbot). Learn to build your own AI personal assistant with installation guides, skills, automation, and 70+ curated resources.',
+  description: 'Free 7-day tutorial to master OpenClaw (Clawdbot/Moltbot). Learn to build your own AI personal assistant with installation guides, 5490+ community skills, automation, and 400+ curated resources.',
   keywords: [
     'OpenClaw', 'OpenClaw tutorial', 'OpenClaw guide', 'OpenClaw 教程',
     'Clawdbot', 'Moltbot', 'AI assistant', 'AI Agent', 'personal AI',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'OpenClaw 101 - Master Your AI Assistant in 7 Days',
-    description: 'Free 7-day tutorial to build your own AI personal assistant with OpenClaw. 70+ curated resources, skills ecosystem, and step-by-step guides.',
+    description: 'Free 7-day tutorial to build your own AI personal assistant with OpenClaw. 400+ curated resources, skills ecosystem, and step-by-step guides.',
     url: 'https://openclaw101.dev',
     siteName: 'OpenClaw 101',
     images: [
@@ -137,7 +137,7 @@ const jsonLd = {
           name: 'What can an OpenClaw assistant do?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'An OpenClaw assistant can manage email, schedule calendar events, browse the web with a real browser, write and execute code, analyze SEO data, create content, monitor websites, automate workflows, and more through its extensible skills system with 5494+ community plugins.',
+            text: 'An OpenClaw assistant can manage email, schedule calendar events, browse the web with a real browser, write and execute code, analyze SEO data, create content, monitor websites, automate workflows, and more through its extensible skills system with 5490+ community plugins.',
           },
         },
         {
