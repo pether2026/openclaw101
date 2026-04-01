@@ -95,7 +95,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'GitHub — openclaw/openclaw',
-    desc: '源代码、Issue 跟踪和社区贡献指南 (342k+ ⭐)',
+    desc: '源代码、Issue 跟踪和社区贡献指南 (344k+ ⭐)',
     url: 'https://github.com/openclaw/openclaw',
     source: 'GitHub',
     lang: 'en',
@@ -4754,6 +4754,27 @@ export const resources: Resource[] = [
     tags: ['Substack', '新闻简报', 'AutoClaw', '百度', '2026-03'],
   },
 
+
+  // ============ New — Week of 2026-04-02 ============
+  {
+    title: 'OpenClaw Newsletter — 2026-03-31',
+    desc: '官方日报：汇总 3 月 31 日社区热点，涵盖 QMD memory 修复、plugin hook 修复、Matrix threading 改进，以及仓库达到 342,368 Stars。',
+    url: 'https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-03-31/',
+    source: 'OpenClaw Newsletter',
+    lang: 'en',
+    category: 'official',
+    featured: true,
+    tags: ['官方周刊', '2026-03-31', 'QMD Memory', 'Plugin Hooks', '342k Stars'],
+  },
+  {
+    title: 'Skywork — The Ultimate Guide to OpenClaw Skills Framework: 2026 Edition',
+    desc: '近期 skills 长文综述：覆盖 OpenClaw Skills 架构、平台对比、常见问题和安全注意事项，适合想系统理解 Skills 生态的读者。',
+    url: 'https://skywork.ai/skypage/en/openclaw-skills-framework-guide/2038589913441320961',
+    source: 'Skywork',
+    lang: 'en',
+    category: 'skill-dev',
+    tags: ['Skills', '生态综述', '安全注意', '2026-03'],
+  },
 ];
 
 export function getResourcesByCategory(cat: ResourceCategory): Resource[] {
