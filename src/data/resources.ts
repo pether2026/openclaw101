@@ -95,7 +95,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'GitHub — openclaw/openclaw',
-    desc: '源代码、Issue 跟踪和社区贡献指南 (344k+ ⭐)',
+    desc: '源代码、Issue 跟踪和社区贡献指南 (345k+ ⭐)',
     url: 'https://github.com/openclaw/openclaw',
     source: 'GitHub',
     lang: 'en',
@@ -4774,6 +4774,25 @@ export const resources: Resource[] = [
     lang: 'en',
     category: 'skill-dev',
     tags: ['Skills', '生态综述', '安全注意', '2026-03'],
+  },
+  {
+    title: 'OpenClaw Newsletter — 2026-03-27',
+    desc: '官方日报：汇总 3 月 27 日社区热点，涵盖 Google AI Pro/Ultra 限制讨论、ClawHub 恶意技能事件、Gateway 进程管理修复，以及 v2026.3.24-beta.2 / v2026.3.24 发布动态。',
+    url: 'https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-03-27/',
+    source: 'OpenClaw Newsletter',
+    lang: 'en',
+    category: 'official',
+    featured: true,
+    tags: ['官方周刊', '2026-03-27', 'v2026.3.24', '安全事件'],
+  },
+  {
+    title: 'GitHub Releases — OpenClaw v2026.3.24',
+    desc: '3 月下旬正式版发布：新增 /v1/models 与 /v1/embeddings 兼容层、实时可用工具视图、Teams 交互增强、Skills 一键安装元数据，以及 Control UI 技能状态筛选与详情面板。',
+    url: 'https://github.com/openclaw/openclaw/releases/tag/v2026.3.24',
+    source: 'GitHub Releases',
+    lang: 'en',
+    category: 'official',
+    tags: ['v2026.3.24', '版本更新', 'Skills', 'Control UI', 'Teams'],
   },
 ];
 
