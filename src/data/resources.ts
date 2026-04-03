@@ -95,7 +95,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'GitHub — openclaw/openclaw',
-    desc: '源代码、Issue 跟踪和社区贡献指南 (345k+ ⭐)',
+    desc: '源代码、Issue 跟踪和社区贡献指南 (347k+ ⭐)',
     url: 'https://github.com/openclaw/openclaw',
     source: 'GitHub',
     lang: 'en',
@@ -4793,6 +4793,36 @@ export const resources: Resource[] = [
     lang: 'en',
     category: 'official',
     tags: ['v2026.3.24', '版本更新', 'Skills', 'Control UI', 'Teams'],
+  },
+
+  {
+    title: 'OpenClaw Newsletter — 2026-04-01',
+    desc: '官方日报：汇总 4 月 1 日社区热点，涵盖 cloud VM 部署指南、安全讨论、v2026.3.31 发布动态，以及仓库达到 343,792 Stars。',
+    url: 'https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-04-01/',
+    source: 'OpenClaw Newsletter',
+    lang: 'en',
+    category: 'official',
+    featured: true,
+    tags: ['官方周刊', '2026-04-01', 'v2026.3.31', 'cloud VM', '343k Stars'],
+  },
+  {
+    title: 'OpenClaw Newsletter — 2026-04-02',
+    desc: '官方日报：汇总 4 月 2 日社区热点，涵盖 /tasks 背景任务板、ClawKeeper 安全框架、腾讯云直播活动，以及仓库达到 345k+ Stars。',
+    url: 'https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-04-02/',
+    source: 'OpenClaw Newsletter',
+    lang: 'en',
+    category: 'official',
+    featured: true,
+    tags: ['官方周刊', '2026-04-02', '/tasks', 'ClawKeeper', '345k Stars'],
+  },
+  {
+    title: 'GitHub Releases — OpenClaw v2026.4.2',
+    desc: '4 月初正式版发布：恢复 Task Flow 底座与子任务管理，新增 Android assistant 入口，并把 x_search / web_fetch 配置迁移到插件侧。',
+    url: 'https://github.com/openclaw/openclaw/releases/tag/v2026.4.2',
+    source: 'GitHub Releases',
+    lang: 'en',
+    category: 'official',
+    tags: ['v2026.4.2', 'Task Flow', 'Android', 'x_search', 'web_fetch'],
   },
 ];
 
