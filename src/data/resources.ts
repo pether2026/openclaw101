@@ -4824,6 +4824,38 @@ export const resources: Resource[] = [
     category: 'official',
     tags: ['v2026.4.2', 'Task Flow', 'Android', 'x_search', 'web_fetch'],
   },
+  // ============ New — Week of 2026-04-05 ============
+  {
+    title: 'GitHub Releases — OpenClaw v2026.4.1',
+    desc: '4 月初正式版发布：新增 /tasks 聊天内后台任务板、SearXNG web_search provider、Bedrock Guardrails、Feishu Drive 评论流，以及更细的 cron tools allowlist 控制。',
+    url: 'https://github.com/openclaw/openclaw/releases/tag/v2026.4.1',
+    source: 'GitHub Releases',
+    lang: 'en',
+    category: 'official',
+    featured: true,
+    tags: ['v2026.4.1', '/tasks', 'SearXNG', 'Bedrock Guardrails', 'Feishu'],
+  },
+
+  {
+    title: 'YouTube — I fixed OpenClaw so it actually works (full setup)',
+    desc: '4 月初的新英文视频教程：聚焦把 OpenClaw 真正跑通的完整 setup 路径，适合装过但没完全跑顺的新手回炉。',
+    url: 'https://www.youtube.com/watch?v=fd4k16REDOU',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', 'full setup', 'troubleshooting', 'April 2026'],
+  },
+
+  {
+    title: 'YouTube — How to Set Up OpenClaw in 30 Minutes (Step-by-Step)',
+    desc: '近期英文分步视频：用 30 分钟带你从零完成 OpenClaw 安装、基础配置与首次跑通，适合作为 2026 年 4 月的入门补充。',
+    url: 'https://www.youtube.com/watch?v=bKGbDWTM2b0',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', 'step-by-step', '30 minutes', 'April 2026'],
+  },
+
 ];
 
 export function getResourcesByCategory(cat: ResourceCategory): Resource[] {
