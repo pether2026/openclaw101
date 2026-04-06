@@ -95,7 +95,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'GitHub — openclaw/openclaw',
-    desc: '源代码、Issue 跟踪和社区贡献指南 (347k+ ⭐)',
+    desc: '源代码、Issue 跟踪和社区贡献指南 (349k+ ⭐)',
     url: 'https://github.com/openclaw/openclaw',
     source: 'GitHub',
     lang: 'en',
@@ -4856,14 +4856,62 @@ export const resources: Resource[] = [
     tags: ['YouTube', 'step-by-step', '30 minutes', 'April 2026'],
   },
 
-];
+  // ============ New — Week of 2026-04-07 ============
+  {
+    title: 'GitHub Releases — OpenClaw v2026.4.5',
+    desc: '最新正式版发布：新增内置音乐/视频生成工具、ClawHub 搜索安装面板、多语言 Control UI，以及大量配置迁移与安全修复。',
+    url: 'https://github.com/openclaw/openclaw/releases/tag/v2026.4.5',
+    source: 'GitHub Releases',
+    lang: 'en',
+    category: 'official',
+    featured: true,
+    tags: ['v2026.4.5', 'Release', 'Music Generate', 'Video Generate'],
+  },
+  {
+    title: 'OpenClaw Newsletter — 2026-04-03',
+    desc: '官方周刊：围绕系统访问权限的安全争议升温，汇总 4 月初社区热点讨论与趋势内容。',
+    url: 'https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-04-03/',
+    source: 'OpenClaw Newsletter',
+    lang: 'en',
+    category: 'official',
+    tags: ['Newsletter', 'Security', 'April 2026'],
+  },
+  {
+    title: 'OpenClaw Newsletter — 2026-04-04',
+    desc: '官方周刊：聚焦 Google 与 Anthropic 对第三方接入的限制，以及 4 月上旬 OpenClaw 生态的最新舆情。',
+    url: 'https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-04-04/',
+    source: 'OpenClaw Newsletter',
+    lang: 'en',
+    category: 'official',
+    tags: ['Newsletter', 'Anthropic', 'Google', 'April 2026'],
+  },
+  {
+    title: 'OpenClaw Newsletter — 2026-04-05',
+    desc: '官方周刊：汇总模型对比、记忆系统、Claude vs GPT 等社区高频讨论，适合追踪最近一周动态。',
+    url: 'https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-04-05/',
+    source: 'OpenClaw Newsletter',
+    lang: 'en',
+    category: 'official',
+    tags: ['Newsletter', 'Memory', 'Models', 'April 2026'],
+  },
+  {
+    title: 'YouTube — OpenClaw 2026.4.2 Update!',
+    desc: '新版视频解读：重点讲 x_search 配置迁移、doctor 修复命令、任务流恢复和 Android 集成。',
+    url: 'https://www.youtube.com/watch?v=3tbglMoBj3Y',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', 'v2026.4.2', 'Update', 'Android'],
+  },
 
-export function getResourcesByCategory(cat: ResourceCategory): Resource[] {
-  return resources.filter((r) => r.category === cat);
-}
+];
 
 export function getFeaturedResources(): Resource[] {
   return resources.filter((r) => r.featured);
+}
+
+export function getResourcesByCategory(cat: ResourceCategory): Resource[] {
+  return resources.filter((r) => r.category === cat);
 }
 
 export function getResourcesByLang(lang: 'zh' | 'en'): Resource[] {
