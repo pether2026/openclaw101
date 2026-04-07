@@ -95,7 +95,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'GitHub — openclaw/openclaw',
-    desc: '源代码、Issue 跟踪和社区贡献指南 (349k+ ⭐)',
+    desc: '源代码、Issue 跟踪和社区贡献指南 (351k+ ⭐)',
     url: 'https://github.com/openclaw/openclaw',
     source: 'GitHub',
     lang: 'en',
@@ -4904,6 +4904,36 @@ export const resources: Resource[] = [
     tags: ['YouTube', 'v2026.4.2', 'Update', 'Android'],
   },
 
+
+  // ============ New — Week of 2026-04-08 ============
+  {
+    title: 'freeCodeCamp — How to Build and Secure a Personal AI Agent with OpenClaw',
+    desc: '从三层架构和七阶段 Agent 循环讲起，带你搭一个可用的 life admin agent，并补上真正需要的安全加固。',
+    url: 'https://www.freecodecamp.org/news/how-to-build-and-secure-a-personal-ai-agent-with-openclaw/',
+    source: 'freeCodeCamp',
+    lang: 'en',
+    category: 'getting-started',
+    featured: true,
+    tags: ['freeCodeCamp', '安全加固', '架构', '实战'],
+  },
+  {
+    title: 'Visual Studio Magazine — Hands On with OpenClaw Node for VS Code',
+    desc: '实测 OpenClaw Node for VS Code，真实本地文件工作流可跑通，但 Windows 体验仍偏早期基础设施。',
+    url: 'https://visualstudiomagazine.com/articles/2026/04/03/hands-on-with-openclaw-node-for-vs-code-real-workflow-real-friction.aspx',
+    source: 'Visual Studio Magazine',
+    lang: 'en',
+    category: 'tools',
+    tags: ['VS Code', 'Node', '工作流', 'Windows'],
+  },
+  {
+    title: 'PCMag — Anthropic: You Can\'t Use OpenClaw With Claude Without Paying Extra',
+    desc: 'PCMag 跟进 Anthropic 对 OpenClaw 使用 Claude 的限制变化，梳理订阅与高阶付费门槛带来的影响。',
+    url: 'https://www.pcmag.com/news/anthropic-you-cant-use-openclaw-with-claude-without-paying-extra',
+    source: 'PCMag',
+    lang: 'en',
+    category: 'official',
+    tags: ['Anthropic', 'Claude', '生态动态', 'PCMag'],
+  },
 ];
 
 export function getFeaturedResources(): Resource[] {
