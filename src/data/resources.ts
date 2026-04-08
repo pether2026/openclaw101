@@ -95,7 +95,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'GitHub — openclaw/openclaw',
-    desc: '源代码、Issue 跟踪和社区贡献指南 (351k+ ⭐)',
+    desc: '源代码、Issue 跟踪和社区贡献指南 (352k+ ⭐)',
     url: 'https://github.com/openclaw/openclaw',
     source: 'GitHub',
     lang: 'en',
@@ -4933,6 +4933,24 @@ export const resources: Resource[] = [
     lang: 'en',
     category: 'official',
     tags: ['Anthropic', 'Claude', '生态动态', 'PCMag'],
+  },
+  {
+    title: 'OpenClaw Newsletter — 2026-04-06',
+    desc: '官方日报：围绕 OpenClaw 2026.4.5 发布、品牌讨论、ClawAwake 工具和持续增长的社区热度做了当日汇总。',
+    url: 'https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-04-06/',
+    source: 'OpenClaw Newsletter',
+    lang: 'en',
+    category: 'official',
+    tags: ['Newsletter', '2026-04-06', 'v2026.4.5', '社区动态'],
+  },
+  {
+    title: 'YouTube — OpenClaw 4.5 Massive Update (INSANE)',
+    desc: '4 月上旬新热视频，聚焦 2026.4.5 的核心变化，包括原生视频/音乐生成和新版 Agent 工作流能力。',
+    url: 'https://www.youtube.com/watch?v=MLWHOMjHwak',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', 'v2026.4.5', 'Update', 'Video Generate', 'Music Generate'],
   },
 ];
 
