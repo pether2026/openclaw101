@@ -95,7 +95,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'GitHub — openclaw/openclaw',
-    desc: '源代码、Issue 跟踪和社区贡献指南 (352k+ ⭐)',
+    desc: '源代码、Issue 跟踪和社区贡献指南 (353k+ ⭐)',
     url: 'https://github.com/openclaw/openclaw',
     source: 'GitHub',
     lang: 'en',
@@ -4952,6 +4952,35 @@ export const resources: Resource[] = [
     category: 'video',
     tags: ['YouTube', 'v2026.4.5', 'Update', 'Video Generate', 'Music Generate'],
   },
+  // ============ New — Week of 2026-04-09 ============
+  {
+    title: 'GitHub Releases — OpenClaw v2026.4.8',
+    desc: '4 月 8 日最新 release，聚焦 Telegram/setup 修复与打包契约更新，适合跟进 2026.4.x 版本线的实践者。',
+    url: 'https://github.com/openclaw/openclaw/releases/tag/v2026.4.8',
+    source: 'GitHub Releases',
+    lang: 'en',
+    category: 'official',
+    tags: ['v2026.4.8', 'GitHub Releases', 'Telegram', 'setup'],
+  },
+  {
+    title: 'GitHub Releases — OpenClaw v2026.4.9',
+    desc: '4 月 9 日最新 release，继续推进 2026.4.x 更新，适合需要第一时间跟进官方版本变更与修复项的用户。',
+    url: 'https://github.com/openclaw/openclaw/releases/tag/v2026.4.9',
+    source: 'GitHub Releases',
+    lang: 'en',
+    category: 'official',
+    tags: ['v2026.4.9', 'GitHub Releases', 'April 2026', 'release'],
+  },
+  {
+    title: 'OpenClaw Newsletter — 2026-04-09',
+    desc: '官方日报：汇总 4 月 9 日社区热点，覆盖最新版本动态、社区热度与当天生态更新，适合快速补齐最近一日情报。',
+    url: 'https://buttondown.com/openclaw-newsletter/archive/openclaw-newsletter-2026-04-09/',
+    source: 'OpenClaw Newsletter',
+    lang: 'en',
+    category: 'official',
+    tags: ['Newsletter', '2026-04-09', '社区动态', 'April 2026'],
+  },
+
 ];
 
 export function getFeaturedResources(): Resource[] {
