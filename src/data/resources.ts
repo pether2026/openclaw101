@@ -95,7 +95,7 @@ export const resources: Resource[] = [
   },
   {
     title: 'GitHub — openclaw/openclaw',
-    desc: '源代码、Issue 跟踪和社区贡献指南 (353k+ ⭐)',
+    desc: '源代码、Issue 跟踪和社区贡献指南 (354k+ ⭐)',
     url: 'https://github.com/openclaw/openclaw',
     source: 'GitHub',
     lang: 'en',
@@ -4979,6 +4979,15 @@ export const resources: Resource[] = [
     lang: 'en',
     category: 'official',
     tags: ['Newsletter', '2026-04-09', '社区动态', 'April 2026'],
+  },
+  {
+    title: 'GitHub Releases — OpenClaw v2026.4.7',
+    desc: '4 月 8 日发布的稳定版 release，补齐 2026.4.5 与 2026.4.8 之间的版本链路，适合追踪 2026.4.x 连续修复节奏。',
+    url: 'https://github.com/openclaw/openclaw/releases/tag/v2026.4.7',
+    source: 'GitHub Releases',
+    lang: 'en',
+    category: 'official',
+    tags: ['v2026.4.7', 'GitHub Releases', 'April 2026', 'release'],
   },
 
 ];
