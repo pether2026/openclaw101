@@ -17,7 +17,7 @@ const featuresZh = [
   {
     icon: '⚡',
     title: '技能扩展',
-    desc: '5,200+ 社区技能，从天气查询到代码生成，一键安装即用。',
+    desc: '5,400+ 社区技能，从天气查询到代码生成，一键安装即用。',
   },
   {
     icon: '🔒',
@@ -35,7 +35,7 @@ const featuresEn = [
   {
     icon: '⚡',
     title: 'Extensible Skills',
-    desc: '5,200+ community skills, from weather queries to code generation. One-click install.',
+    desc: '5,400+ community skills, from weather queries to code generation. One-click install.',
   },
   {
     icon: '🔒',
